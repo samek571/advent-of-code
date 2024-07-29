@@ -11,9 +11,6 @@ def inputting():
         person = shit.split()[0]
         if person not in dick: dick[person] = collections.defaultdict(int)
 
-    # for key in dick.keys():
-    #     print('You would lose 0 happiness units by sitting next to ' + str(key) + ".")
-
     for general_truth in ppl:
         general_truth = general_truth.split()
         a,b, val = general_truth[0], general_truth[-1][:-1], int(general_truth[3])
